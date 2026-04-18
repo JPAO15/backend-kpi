@@ -7,7 +7,7 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 const GOOGLE_SCRIPT_URL = process.env.GOOGLE_SCRIPT_URL;
-const FRONTEND_URL = "https://jpao15.github.io/indikator-kpi";
+const FRONTEND_URL = "https://jpao15.github.io";
 
 app.use(
   cors({
